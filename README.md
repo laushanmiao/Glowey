@@ -12,22 +12,16 @@ Traditional lighting systems often suffer from being dangerously under-lit to sa
 
 ### ✨ Key Features
 
-* 
-**Sequential Distance Detection**: LEDs activate consequently as a person approaches.
+* **Sequential Distance Detection**: LEDs activate consequently as a person approaches.
 
 
-* 
-**Long-Range Sensing**: Utilizes an **HC-SR04 Ultrasonic sensor** to detect approaching individuals from a distance.
+* **Long-Range Sensing**: Utilizes an **HC-SR04 Ultrasonic sensor** to detect approaching individuals from a distance.
 
 
-* 
-**Precision Activation**: An **IR sensor** confirms close-range presence for precise activation of components like advertisement boards.
+* **Precision Activation**: An **IR sensor** confirms close-range presence for precise activation of components like advertisement boards.
 
 
-* 
-**Energy Efficiency**: Automated control ensures lights are only "on" when needed, saving power.
-
-
+* **Energy Efficiency**: Automated control ensures lights are only "on" when needed, saving power.
 
 ---
 
@@ -35,34 +29,17 @@ Traditional lighting systems often suffer from being dangerously under-lit to sa
 
 #### Hardware Components
 
-* 
-**Microcontroller**: Arduino Nano (ATmega328P).
-
-
+* **Microcontroller**: Arduino Nano (ATmega328P).
 * Operating Voltage: 5V DC.
-
-
 * Clock Speed: 16 MHz.
-
-
-
 
 * **Ultrasonic Sensor (HC-SR04)**:
 * Detection Range: 2–400 cm.
-
-
 * Accuracy: $\pm3$ mm.
-
-
-
-
-* 
-**IR Sensor**: Used for precise close-range presence detection.
-
-
-* 
-**LEDs + Resistors**: Provide safe lighting without overloading the circuit.
-
+  
+* **IR Sensor**: Used for precise close-range presence detection.
+  
+* **LEDs + Resistors**: Provide safe lighting without overloading the circuit.
 
 
 #### 📌 Pin Configuration
@@ -97,12 +74,10 @@ Based on the `Glowey.ino` source code:
 
 ### ⚙️ How It Works
 
-1. 
-**Detection**: The HC-SR04 sends ultrasonic waves and measures the echo time to calculate the distance of an approaching person.
+1. **Detection**: The HC-SR04 sends ultrasonic waves and measures the echo time to calculate the distance of an approaching person.
 
 
-2. 
-**Processing**: The Arduino Nano processes these signals using the formula:
+2. **Processing**: The Arduino Nano processes these signals using the formula:
 
 
 
@@ -111,8 +86,6 @@ $$Distance = \frac{duration \times 0.0343}{2}$$
 
 3. **Activation**:
 * As the person moves through specific distance ranges (0–30 cm), corresponding LEDs trigger sequentially to light the path.
-
-
 * When an object is detected by the IR sensor, the IR LED activates for a set duration of 3 seconds.
 
 
@@ -130,16 +103,13 @@ git clone https://github.com/yourusername/Glowey.git
 ```
 
 
-2. 
-**Hardware Setup**: Follow the circuit design to connect your sensors and LEDs to the Arduino Nano.
+2. **Hardware Setup**: Follow the circuit design to connect your sensors and LEDs to the Arduino Nano.
 
 
-3. 
-**Upload Code**: Open `Glowey.ino` in the Arduino IDE and upload it to your board.
+3. **Upload Code**: Open `Glowey.ino` in the Arduino IDE and upload it to your board.
 
 
-4. 
-**Monitor**: Open the Serial Monitor (9600 baud) to view real-time distance data for debugging.
+4. **Monitor**: Open the Serial Monitor (9600 baud) to view real-time distance data for debugging.
 
 
 
@@ -148,5 +118,3 @@ git clone https://github.com/yourusername/Glowey.git
 ### 👥 About the Team
 
 Presented by **Photon Engineers**.
-
-Would you like me to create a **features list** with more technical details or help you write the **Conclusion** section for your documentation?
