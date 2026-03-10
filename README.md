@@ -50,25 +50,25 @@ Based on the `Glowey.ino` source code:
 | --- | --- | --- |
 | **IR Sensor** | D2 | Input signal 
 
- |
+
 | **LED (IR)** | D7 | Close-range indicator 
 
- |
+
 | **Ultrasonic TRIG** | D6 | Trigger pulse 
 
- |
+
 | **Ultrasonic ECHO** | D4 | Echo pulse 
 
- |
+
 | **LED Range 1** | D9 | Activation for 0–15 cm 
 
- |
+
 | **LED Range 2** | D11 | Activation for 7–23 cm 
 
- |
+
 | **LED Range 3** | D12 | Activation for 15–30 cm 
 
- |
+
 
 ---
 
